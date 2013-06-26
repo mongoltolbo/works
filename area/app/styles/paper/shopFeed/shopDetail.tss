@@ -1,0 +1,34 @@
+".container": {
+  backgroundColor: "white"
+}
+"TableViewRow": {
+    selectionStyle : Titanium.UI.iPhone.TableViewCellSelectionStyle.NONE
+}
+"#shopName": {
+  left: "30dp"
+}
+"#postcode": {
+  left: "30dp"
+}
+"#address": {
+  left: "30dp"
+}
+"#tel": {
+  left: "30dp",
+}
+"#mail": {
+  left: "30dp",
+}
+"#hp": {
+  left: "30dp",
+}
+
+"#mapView": {
+  top: 10,
+  bottom: 10
+}
+".infoChild": {
+  top: 10,
+  width: 'auto',
+  height: 'auto'
+}

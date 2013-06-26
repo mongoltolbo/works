@@ -1,0 +1,34 @@
+<Alloy>
+    <TableView id="tableView">
+	<TableViewSection id="map">
+            <TableViewRow id="mapRow">
+                <View ns="Ti.Map" id="mapView">
+                </View>
+                <View id="openMap">
+                    <Label id="openMapLabel" class="large"/>
+                </View>
+            </TableViewRow>
+	</TableViewSection>
+	<TableViewSection id="info">
+            <TableViewRow id="infoRow">
+                <Label id="shopName" class="infoChild"/>
+                <Label id="postcode" class="infoChild"/>
+                <Label id="address" class="infoChild"/>
+                <Label id="tel" class="infoChild"/>
+                <Label id="mail" class="infoChild"/>
+                <Label id="hp" class="infoChild"/>
+            </TableViewRow>
+	</TableViewSection>
+	<!-- <TableViewSection id="desc"> -->
+        <!--     <TableViewRow id="descRow"> -->
+        <!--         <Label id="about"/> -->
+        <!--     </TableViewRow> -->
+	<!-- </TableViewSection> -->
+	<!-- <TableViewSection id="open"> -->
+        <!--     <TableViewRow id="openRow"> -->
+        <!--         <Label id="openTime"/> -->
+        <!--         <Label id="closeDay"/> -->
+        <!--     </TableViewRow> -->
+	<!-- </TableViewSection> -->
+    </TableView>
+</Alloy>

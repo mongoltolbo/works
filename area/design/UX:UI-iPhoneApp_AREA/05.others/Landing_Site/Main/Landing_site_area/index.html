@@ -1,0 +1,339 @@
+<!DOCTYPE HTML>
+<html lang="ja">
+<head>
+    <!--memo-->
+    <!--
+    問い合わせ、店舗登録はtarget="_blank"で、
+    あと問い合わせについてはhref="/inquiary.html"
+    -->
+
+    <title>AREA -街の今を、知ろう-</title>
+
+    <!--meta Tags-->
+    <meta name="apple-itunes-app" content="app-id=560457959">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1">
+    <meta charset="UTF-8">
+    <meta name="description" content="Welcome to AREA.">
+    <meta property="og:title" content="AREA">
+    <meta property="og:type" content="website">
+    <meta property="og:description" content="Welcome to AREA.">
+    <meta property="og:url" content="http://area.cm">
+    <meta property="og:image" content="http://secure-dev.origami.co/img/ogimage.jpg"><!--AREA Image Logo -->
+    <meta property="og:site_name" content="AREA">
+    <!--meta Tags-->
+
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <link type="text/css" rel="stylesheet" href="/css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="/css/style.css">
+
+    <script type="text/javascript">
+        /*
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-35577175-1']);
+            _gaq.push(['_trackPageview']);
+            (function() {
+            var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+            ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+         */
+    </script>
+
+    <!--js-->
+    <!--Read jquery first, Second bootstrap-->
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <!--js-->
+
+    <!--css-->
+    <!--スタイルシートbootstrap.cssとbootstrap-responsiveを別で読み込む。-->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <!--<link rel="stylesheet" href="lib/bootstrap/css/bootstrap-responsive.css" />-->
+    <!--css-->
+
+    <style type="text/css">
+        /* Style Toppage Only */
+        .toppage-slide {
+            width: 100%;
+            height: 100%;
+            min-height: 750px;
+            margin: 0;
+            background-image: url('img/blur.png');;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .toppage-slide-wrapper {
+            width : 960px;
+            height: 100%;
+            margin: 0 auto;
+        }
+
+        .toppage-slide-content-left {
+            width: 380px;
+            margin-left: 80px;
+            float: left;
+        }
+
+        .toppage-slide-content-right{
+            width: 270px;
+            margin-top: 60px;
+            margin-right: 110px;
+            margin-bottom: 80px;
+            float: right;
+        }
+        .toppage-slide-content-right img {
+            width: 270px;
+        }
+
+        .toppage-slide-movie {
+            width: 960px;
+            display: block;
+            text-align: center;
+        }
+        .toppage-logo {
+            margin-top: 100px;
+            width: 112px;
+        }
+
+        h1.toppage-leadtext {
+            font-family: AvenirNext-Ultralight;
+            font-size: 52px;
+            line-height: 65px;
+            color: white;
+            font-weight: bold;
+            letter-spacing: 6px;
+            margin-bottom: 20px;
+        }
+        h1.toppage-leadtext-jp {
+            font-family: AvenirNext-Ultralight;
+            font-size: 28px;
+            line-height: 65px;
+            color: white;
+            font-weight: medium;
+            margin-bottom: 20px;
+        }
+        h3{
+            font-family: AvenirNext-Ultralight;
+            font-size: 16px;
+            line-height: 30px;
+            color:white;
+            font-weight: lighter;
+            margin-bottom: 20px;
+        }
+        .toppage-applink {
+            width: 152px;
+        }
+
+        .logo-navigation img{
+            width: auto;
+            max-height: 60px;
+        }
+
+
+        /*ここからスライド以下のコンテンツ部分*/
+        .toppage-content {
+            width: 960px;
+            min-height: 470px;
+            margin-top: 100%;
+            margin: 0 auto;
+            padding: 0 3px;
+            margin-top: 60px;
+            margin-bottom: 15px;
+            background-repeat: repeat-y;
+            display: block;
+        }
+        .toppage-subcontent-wrapper {
+            position: relative;
+            width : 300px;
+            display: inline-block;
+            margin-top: 0px;
+            margin-bottom: -6px;
+            background-color: #fff;
+        }
+        .toppage-subcontent-wrapper-center {
+            position: relative;
+            width: 300px;
+            display: inline-block;
+            margin: 0px 24px 0 24px;
+            margin-bottom: -6px;
+            background-color: #FFF;
+        }
+        
+
+        .toppage-subcontent-image img {
+            width: 300px;
+            height: 300px;
+            background-color: #bbb;
+            display: inline-block;
+            float: left;
+            margin-bottom:11px;
+        }
+        .toppage-subcontent-explain-description-jp {
+            font-size: 13px;
+            line-height: 20px;
+            font-family: HelveticaNeue-Light;
+            color:#000;
+            margin-top: 10px;
+            padding: 0 20px 20px 20px;
+        }
+
+
+        .toppage-appstore {
+            width: 175px;
+            margin: 80px auto;
+        }
+    
+    </style>
+
+</head>
+
+<body>
+    <div id="container">
+        <!--
+        <div id="header">
+            <div class="nav fixed" style="top: 0px;">
+                <div class="nav-wrapper">
+                    <div class="header-site-title">
+                        <a href="#"><img src="img/logo.png" class="logo-navigation"/ style="width: 60px; height: 60px; padding-left: 20px;"></a>
+                    </div>
+                    <div class="header-site-menu-wrapper">
+                        <div class="header-site-menu-first">
+                            <a href="#">店舗登録</a>
+                        </div>
+                        <div class="header-site-menu-img">
+                            <a href="#" target="itunes_store"><img src="img/appstore-menu.png" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        -->
+        <div class="toppage-slide">
+            <div class="toppage-slide-wrapper">
+                <div class="toppage-slide-content-left">
+                    <img class="toppage-logo" src="img/logo.png">
+                    <h1 class="toppage-leadtext-jp">街の今を、知ろう</h1>
+                    <div class="toppage-leadtext-jp-1" >
+                        <h3 style="line-height:140%;">
+                            もし、空を飛べなかったら、その地上絵はただの土だったろう。
+                        </h3>
+                    </div>
+                    <div class="toppage-leadtext-jp-2">
+                        <h3 style="line-height:140%;">もし、AREAがなかったら、その街はただのコンクリートだっただろう。</h3>
+                    </div>
+                    <div class="toppage-leadtext-jp-3">
+                        <h3>
+                            街の今を、あなたのこれからに、AREA。
+                        </h3>
+                    </div>
+                        <br>
+                        <a href="https://itunes.apple.com/jp/app/area/id560457959" target="_blank">
+                            <img src="img/appstore.png" class="toppage-applink">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=jp.co.kotoha.android.area" target="_blank">
+                            <img src="img/gglstore.gif" class="toppage-applink"  style="padding-left:20px; height: 46px; width: auto;"/>
+                        </a>
+                        <!--Social Plugin-->
+                        <div class="social">
+                            <div class="social_wrapper">
+                                <!--twitter-->
+                                <div class="twitter" style="padding-top: 50px">
+                                    <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://area.cm" data-lang="ja" data-hashtags="AREA">ツイート</a>
+                                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+                                </div>
+                                <!--facebook-->
+                                <iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Farea.cm&amp;send=false&amp;layout=button_count&amp;width=450&amp;show_faces=true&amp;font=arial&amp;colorscheme=dark&amp;action=like&amp;height=21&amp;appId=498129606871665" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:450px; height:21px;" allowTransparency="true"></iframe>
+
+                            </div> 
+                        </div>
+                <!--Social Plugin-->
+                </div>
+                <div class="toppage-slide-content-right">
+                    <img src="img/splash_iPhone5.png">
+                </div>
+
+
+
+
+            </div>
+        </div>
+        <div class="toppage-content">
+            <div class="toppage-subcontent">
+                <div class="toppage-subcontent-wrapper">
+                    <div class="toppage-subcontent-image">
+                        <img src="img/fly.png" alt="" />
+                    </div>
+                    <div class="toppage-subcontent-explain-description-jp">
+                    地図で好きな場所をタッチ。知ってる所も知らない所も、AREAにお任せ。もちろん、今いる場所の周辺情報もわかります。
+                    </div>
+                </div>
+                <div class="toppage-subcontent-wrapper-center">
+                    <div class="toppage-subcontent-image">
+                        <img src="img/view_2.png" alt="" />
+                    </div>
+                    <div class="toppage-subcontent-explain-description-jp">
+                    まるでリアルタイムに発行されるフリーペーパー。AREAなら、「街の今」が手に取るようにわかります。
+                    </div>
+                </div>
+                <div class="toppage-subcontent-wrapper">
+                    <div class="toppage-subcontent-image">
+                        <img src="img/go.png" alt="" />
+                    </div>
+                    <div class="toppage-subcontent-explain-description-jp">
+                    AREAで気になったお店の様子をチェック。行きたいなと思ったら、実際に行ってみましょう。お店もあなたもハッピーに。
+                    </div>
+                </div>
+            </div>
+            <div class="toppage-appstore">
+                <a href="https://itunes.apple.com/jp/app/area/id560457959" target="_blank"><img src="img/appstore.png" class="toppage-applink" /></a>
+                <a href="https://play.google.com/store/apps/details?id=jp.co.kotoha.android.area"><img src="img/gglstore.gif" style="padding-left:8px; padding-top:10px"/></a>
+            </div>
+        </div>
+        <div id="footer">
+            <footer>
+                <div class="footer-nav">
+                    <div class="footer-nav-wrapper">
+                        <div class="footer-upper">
+                            <div class="footer-upper-left">
+                                <p><a href="#">TOP</a></p>
+                                <p><a href="#">店舗登録</a></p>
+                            </div>
+                            <!--
+                            <div class="footer-upper-right">
+                                <div class="footer-upper-right-fb">
+                                    <a href="http://www.facebook.com/area.cm" target="_blank">
+                                        <img src="img/icon_fb.png">
+                                    </a>
+                                </div>
+                                <div class="footer-upper-right-tw">
+                                    <a href="http://www.twitter.com/kz_kmo" target="_blank">
+                                        <img src="img/icon_twitter.png">
+                                    </a>
+                                </div>
+                                <div class="footer-upper-right-tb">
+                                    <a href="http://www.twitter.com/kz_kmo" target="_blank">
+                                        <img src="img/icon_tumblr.png">
+                                    </a>
+                                </div>
+                            </div>
+                            -->
+                        </div>
+                        <div class="footer-lower">
+                            <div class="footer-lower-left">
+                                <p class="copyright">©&nbsp;2013 AreaCommerce, Inc.</p>
+                                <p><a href="about.html">会社概要</a></p>
+                                <p><a href="#" target="_blank">お問い合わせ</a></p>
+                            </div>
+                            <div class="footer-lower-right"></div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <script type="text/javascript"src="js/onload-navigation.js"></script>
+</body>
+</html>

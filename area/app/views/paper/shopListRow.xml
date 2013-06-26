@@ -1,0 +1,7 @@
+<Alloy>
+    <TableViewRow id="tableViewRow">
+        <ImageView id="imageView"/>
+        <Label id="shopName"/>
+        <Label id="about"/>
+    </TableViewRow>
+</Alloy>

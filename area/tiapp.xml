@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ti:app xmlns:ti="http://ti.appcelerator.org">
+    <property name="ti.android.runtime">v8</property>
+    <deployment-targets>
+        <target device="mobileweb">false</target>
+        <target device="iphone">true</target>
+        <target device="ipad">true</target>
+        <target device="android">true</target>
+        <target device="blackberry">false</target>
+    </deployment-targets>
+    <sdk-version>3.0.0.GA</sdk-version>
+    <ios>
+        <min-ios-ver>4.3</min-ios-ver>
+    </ios>
+    <!--
+    <id>jp.co.kotoha.ios.area</id>
+    <id>jp.co.kotoha.ios.dev001.area</id>
+    <id>jp.co.kotoha.android.area</id>
+    <id>jp.co.kotoha.android.dev001.area</id>
+-->
+    <id>jp.co.kotoha.ios.dev001.area</id>
+    <name>newArea</name>
+    <version>1.5</version>
+    <publisher>Kotohaco, Inc.</publisher>
+    <url>http://area.cm</url>
+    <description>***</description>
+    <copyright>2012 Kotohaco, Inc.</copyright>
+    <icon>appicon.png</icon>
+    <persistent-wifi>false</persistent-wifi>
+    <prerendered-icon>true</prerendered-icon>
+    <statusbar-style>default</statusbar-style>
+    <statusbar-hidden>false</statusbar-hidden>
+    <fullscreen>false</fullscreen>
+    <navbar-hidden>false</navbar-hidden>
+    <analytics>true</analytics>
+    <guid>c7f089bd-317c-454d-a4d6-736e484c4b1b</guid>
+    <property name="ti.ui.defaultunit">system</property>
+    <!-- product -->
+    <!--
+    <property name="ti.android.google.map.api.key">09cKBtrjfIjuokLBjXW4L1a98p3JkIfPbAP_sFg</property>
+-->
+    <!-- dev -->
+    <property name="ti.android.google.map.api.key">09cKBtrjfIjvG4He82osjalD5xHmxrDxhib0ZlA</property>
+    <!--
+    <property name="ti.android.bug2373.title">メッセージ</property>
+    <property name="ti.android.bug2373.message">アプリケーションの起動準備を行います</property>
+    <property name="ti.android.bug2373.buttonText">続ける</property>
+    <property name="ti.android.bug2373.backgroundColor">black</property> 
+-->
+    <property name="ti.android.bug2373.disableDetection" type="bool">true</property>
+    <property name="ti.android.bug2373.finishfalseroot" type="bool">true</property>
+    <property name="ti.android.bug2373.title">\u30e1\u30c3\u30bb\u30fc\u30b8</property>
+    <property name="ti.android.bug2373.message">\u30a2\u30d7\u30ea\u30b1\u30fc\u30b7\u30e7\u30f3\u306e\u8d77\u52d5\u6e96\u5099\u3092\u884c\u3044\u307e\u3059</property>
+    <property name="ti.android.bug2373.buttonText">\u7d9a\u3051\u308b</property>
+    <property name="ti.android.bug2373.backgroundColor">black</property>
+    <iphone>
+        <orientations device="iphone">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <!--
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+-->
+        </orientations>
+        <orientations device="ipad">
+            <orientation>Ti.UI.PORTRAIT</orientation>
+            <!--
+            <orientation>Ti.UI.UPSIDE_PORTRAIT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_LEFT</orientation>
+            <orientation>Ti.UI.LANDSCAPE_RIGHT</orientation>
+-->
+        </orientations>
+    </iphone>
+    <android xmlns:android="http://schemas.android.com/apk/res/android">
+        <tool-api-level>8</tool-api-level>
+        <manifest android:installLocation="auto" android:versionCode="6" android:versionName="1.5">
+            <supports-screens android:anyDensity="true"
+                android:largeScreens="true" android:normalScreens="true"
+                android:resizeable="true" android:smallScreens="true"/>
+        </manifest>
+        <activities>
+            <activity android:screenOrientation="portrait"/>
+        </activities>
+    </android>
+    <mobileweb>
+        <precache/>
+        <splash>
+            <enabled>false</enabled>
+            <inline-css-images>false</inline-css-images>
+        </splash>
+        <theme>default</theme>
+    </mobileweb>
+    <modules/>
+<plugins><plugin version="1.0">ti.alloy</plugin></plugins>
+</ti:app>

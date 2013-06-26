@@ -1,0 +1,8 @@
+".container": {
+	backgroundColor: "white"
+}
+"#win": {
+  width : 320,
+  height : 60,
+  bottom : 0
+}

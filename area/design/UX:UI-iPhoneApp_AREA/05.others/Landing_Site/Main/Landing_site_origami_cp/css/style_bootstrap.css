@@ -1,0 +1,105 @@
+/*footer*/
+/*footer whole frame*/
+.footer-nav {
+    width: 100%;
+    height: 120px;
+    background-color: #222222;
+    border-top: 1px solid;
+    border-color: rgba(192,192,192,0.8);
+    box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.50);
+    -moz-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.50);
+    -webkit-box-shadow: 0px -1px 2px rgba(0, 0, 0, 0.500;
+}
+
+/*inner-frame of footer*/
+.footer-nav-wrapper {
+    width: 960px;
+    height: 120px;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-color: rgba(228, 228, 228, 0.5);
+    background-color: #000000;
+    margin: 0 auto;
+}
+
+.footer-upper {
+    height: 59px;
+    border-bottom: 1px solid #333;
+}
+
+
+.footer-lower{
+    height: 60px;
+}
+
+.footer-upper-left {
+    float: left;
+}
+
+.footer-upper-left p {
+    display: inline;
+}
+
+.footer-upper-left a{
+    display: inline-block;
+    height: 20px;
+    padding: 20px 0;
+    margin-left: 30px;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic', AvenirNext-Regular,sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+.footer-upper-left a:hover {
+    color: #ff4600;
+}
+
+.footer-upper-right {
+    display: inline-block;
+    height: 60px;
+    float: right;
+}
+
+.footer-upper-right a {
+    display: inline-block;
+    width:60px;
+    height: 60px;
+}
+
+.footer-upper-right img {
+    width: 59px;
+    height: 60px;
+    border-left: 1px solid #555;
+}
+
+
+.footer-lower-left {
+    padding-top: 13px;
+    display: inline-block;
+    font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック','MS PGothic', AvenirNext-Regular,sans-serif;
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left:25px;
+    color: #888;
+    float: left;
+}
+
+.footer-lower-right {
+    font-size: 10px;
+    text-align: left;
+    text-transform: uppercase;
+    color: #888;
+}
+.footer-lower-left a:link, .footer-lower-left a:visited {
+    display: inline;
+    font-family:'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', 'メイリオ', Meiryo;
+    font-size: 10px;
+    text-align: left;
+    margin-left: 20px;
+    color: #888;
+    text-decoration: none;
+}
+/*footer*/

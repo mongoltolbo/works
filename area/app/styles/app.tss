@@ -1,0 +1,87 @@
+// "View": {
+//   backgroundImage:"images/background.png",
+//   backgroundRepeat: true
+// }
+"ScrollView": {
+  // backgroundImage:"images/background.png",
+  // backgroundRepeat: true  
+}
+
+"#tableView": {
+  // backgroundImage:"images/background.png",
+  // backgroundRepeat: true  
+}
+
+"#tableViewRow": {
+  // backgroundImage:"images/background.png",
+  // backgroundRepeat: true  
+}
+
+"#time": {
+  color: "#777",
+  font: {
+    fontSize: 8
+  }
+}
+"Window": {
+  tabBarHidden: true,
+//  barImage: "images/top_bar_bg.png"
+  barColor: "#000000"
+}
+".overwrap": {
+  color: '#FFF',
+  font: {
+    fontSize: 14,
+    fontWeight: 'bold'
+  },
+  shadowColor: '#000',
+  shadowOffset: {x:1, y:1}
+}
+"#navbar": {
+  height: Alloy.CFG.navbarHeight,
+  width: Ti.Platform.displayCaps.platformWidth
+}
+"#backButton": {
+  image: "/images/back_arrow.png",
+  left: 10,
+  width: 34,
+  height: 22
+}
+"#backContainer": {
+  left: 0,
+  width: 48,
+  height: Alloy.CFG.nabvarHeight
+}
+"#navbarRight": {
+  right: 0,
+  width: 48,
+  height: Alloy.CFG.nabvarHeight
+}
+"#navbarLeft": {
+  left: 0,
+  width: 48,
+  height: Alloy.CFG.nabvarHeight
+}
+"#title": {
+  height: 22,
+  textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+  color: 'white',
+  font: {
+    fontSize: 20,
+    fontWeight: 'bold'
+  }
+}
+".large": {
+  color: 'white',
+  font: {
+    fontSize: 24,
+    fontWeight: 'bold'
+  }
+}
+".headerLabel": {
+  color: 'white',
+  font: {
+    fontSize: 18,
+    fontWeight: 'bold'
+  }  
+}

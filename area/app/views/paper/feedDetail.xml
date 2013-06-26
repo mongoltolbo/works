@@ -1,0 +1,22 @@
+<Alloy>
+    <View id="win" class="container">
+        <View id="navbar">
+            <View id="backContainer">
+                <ImageView id="backButton"/>
+            </View>
+            <Label id="title"/>
+        </View>
+        <ScrollView id="scrollView">
+            <View id="imgContainer">
+                <ImageView id="feedImage">
+                </ImageView>
+            </View>
+            <View id="overwrap"/>
+        </ScrollView>
+        <ScrollView id="controller">
+            <!-- <View id="labelContainer"> -->
+                <Label id="text" class="overwrap"/>
+            <!-- </View> -->
+        </ScrollView>
+    </View>
+</Alloy>

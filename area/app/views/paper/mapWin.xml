@@ -1,0 +1,17 @@
+<Alloy>
+    <Window id="mapWin">
+        <View ns="Ti.Map" id="mapView">
+        </View>
+        <View id="control">
+            <View id="cancel"/>
+	    <TextField id="search"/>
+            <View id="apply"/>
+            <View id="leftPart"/>
+            <View id="rightPart"/>
+        </View>
+        <!-- <View id="frame"/> -->
+        <View id="footer"/>
+        <!-- <Label id="num"/> -->
+        <Button id="current"/>
+    </Window>
+</Alloy>

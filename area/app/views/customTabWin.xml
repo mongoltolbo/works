@@ -1,0 +1,6 @@
+<Alloy>
+    <Window id="win">
+        <ImageView id="img">
+        </ImageView>
+    </Window>
+</Alloy>

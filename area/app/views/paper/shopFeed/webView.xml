@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="win" layout="vertical">
+        <View id="navbar">
+            <View id="backContainer">
+                <ImageView id="backButton"/>
+            </View>
+            <Label id="title"/>
+        </View>
+        <WebView id="webView"/>
+    </Window>
+</Alloy>

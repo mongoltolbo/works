@@ -1,0 +1,11 @@
+<Alloy>
+    <Window id="win">
+        <View id="navbar">
+            <View id="navbarLeft">
+                <ImageView id="backButton"/>
+            </View>
+        </View>
+	<TableView id="tableView">
+	</TableView>
+    </Window>
+</Alloy>

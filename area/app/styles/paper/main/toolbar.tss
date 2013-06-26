@@ -1,0 +1,24 @@
+"#bar": {
+  top: 0,
+  height: 40
+}
+".toolbarButton": {
+  top: 0
+}
+"#areaButton": {
+  left: 0,
+  backgroundImage: "/images/area_off.png",
+  backgroundFocusedImage: "/images/area_on.png",
+  backgroundSelectedImage: "/images/area_on.png"
+}
+"#categoryButton": {
+  backgroundImage: "/images/cate_off.png",
+  backgroundFocusedImage: "/images/cate_on.png",
+  backgroundSelectedImage: "/images/cate_on.png"
+}
+"#shopList": {
+  right: 0,
+  backgroundImage: "/images/list_off.png",
+  backgroundFocusedImage: "/images/list_on.png",
+  backgroundSelectedImage: "/images/list_on.png"
+}

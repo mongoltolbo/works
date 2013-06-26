@@ -1,0 +1,7 @@
+<Alloy>
+    <View id="bar">
+        <Button class="toolbarButton" id="areaButton"/>
+        <Button class="toolbarButton" id="categoryButton"/>
+        <Button class="toolbarButton" id="shopList"/>
+    </View>
+</Alloy>

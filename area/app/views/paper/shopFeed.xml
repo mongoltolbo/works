@@ -1,0 +1,35 @@
+<Alloy>
+    <Window id="win" class="container">
+        <View id="content">
+        <View id="navbar">
+            <View id="backContainer">
+                <ImageView id="backButton"/>
+            </View>
+            <Label id="title"/>
+        </View>
+        <ScrollView id="scrollView">
+	    <ImageView id="shopLogo">
+            </ImageView>
+            <View id="iconContainer">
+                <ImageView id="shopImage"/>
+                <Label id="shopName"/>
+                <Label id="like"/>
+                <Label id="distance"/>
+            </View>
+            <View id="viewSwitcher">
+                <View id="b1">
+                      <ImageView id="info" class="switch"/>
+                </View>
+                <View id="b2">
+                      <ImageView id="list" class="switch"/>
+                </View>
+                <View id="b3">
+                      <ImageView id="grid" class="switch"/>
+                </View>
+            </View>
+            <!-- <Toolbar id="viewSwitcher" platform="ios"/> -->
+            <!-- <View id="feeds"/> -->
+        </ScrollView>
+        </View>
+    </Window>
+</Alloy>

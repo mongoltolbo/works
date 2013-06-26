@@ -1,0 +1,7 @@
+デザイナのためのversion管理
+基本的にこのページの内容だけ知っておけば大丈夫。
+tigはMacportsから入れると楽。
+
+【参照サイト】
+http://www.backlog.jp/git-guide/
+https://github.com/hatena/Git-for-Designers

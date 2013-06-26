@@ -1,0 +1,10 @@
+".container": {
+	backgroundColor: "white"
+}
+"#tab": {
+  title: "Shop List"
+}
+
+"#win": {
+  title: "一覧"
+}

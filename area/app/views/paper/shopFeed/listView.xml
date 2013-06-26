@@ -1,0 +1,12 @@
+<Alloy>
+    <View id="row">
+        <View id="imgContainer">
+            <ImageView id="feedImage">
+            </ImageView>
+        </View>
+        <View id="view">
+            <Label id="feedText"/>
+            <Label id="time"/>
+        </View>
+    </View>
+</Alloy>

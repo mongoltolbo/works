@@ -1,0 +1,19 @@
+<Alloy>
+    <ScrollView id="scrollView">
+        <View id="navbar">
+            <ImageView id="list"/>
+            <ImageView id="logo"/>
+            <View id="navbarRight">
+                <ImageView id="refresh"/>
+            </View>
+        </View>
+        <View id="verticalView">
+            <!-- <View id="infoPanel"/> -->
+        </View>
+        <View id="sub">
+            <View id="left">
+            </View>
+            <View id="right"/>     
+        </View>
+    </ScrollView>
+</Alloy>

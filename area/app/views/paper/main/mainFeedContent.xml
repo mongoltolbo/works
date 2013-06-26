@@ -1,0 +1,26 @@
+<Alloy>
+    <View id="view">
+        <View id="verticalContainer">
+            <View id="imgContainer">
+                <ImageView id="feedImage">
+                </ImageView>
+                <!-- <View id="gradient"/> -->
+            </View>
+            <View id="labelContainer">
+                <ImageView id="shopImage"/>
+                <Label id="shopName"/>
+            </View>
+            <View id="feedContainer">
+                <Label id="feedText"/>
+                <Label id="time"/>
+            </View>
+            <View id="border"/>
+            <View id="footer">
+                <Label id="like"/>
+                <Label id="likeNum"/>
+                <ImageView id="likeIcon"/>
+            </View>
+        </View>
+        <View id="activate"/>
+    </View>
+</Alloy>

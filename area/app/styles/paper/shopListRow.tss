@@ -1,0 +1,21 @@
+".container": {
+	backgroundColor: "white"
+}
+"#shopName": {
+  top: 5,
+  height: 30,
+  left: 74
+}
+"#about": {
+  bottom: 5,
+  left: 74,
+  height: 30,
+  font: { fontSize: 12 }
+}
+"#imageView": {
+  top: 5,
+  bottom: 5,
+  left: 5,
+  height: 64,
+  width: 64
+}
